@@ -1,0 +1,21 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image:url(../Front-end/assets/d-ng-h-u-CCjgYjUudxE-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    margin-left:35%;
+    margin-top:7%;
+    width: 30%;
+    height: 500px;
+    background-color: rgb(255,255,255,.6);
+}
+h1{
+    text-align: center;
+    color: rgb(255,255,255,.6);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
