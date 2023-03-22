@@ -6,16 +6,87 @@ body{
     background-size: cover;
 }
 .box{
+    padding-top: 2%;
+    padding-bottom: 2%;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     margin-left:35%;
     margin-top:7%;
     width: 30%;
-    height: 500px;
-    background-color: rgb(255,255,255,.6);
+    background-color: rgba(255, 182, 182, 0.6);
+    border-radius: 5% 20% 5% 20%;
 }
 h1{
     text-align: center;
-    color: rgb(255,255,255,.6);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(255,255,255);
+    font-family: Snell Roundhand, cursive;
+}
+.box h1{
+    text-align: center;
+    color: rgb(255,255,255);
+    font-family: Didot,serif;
+}
+.part{
+    margin-right: 20%;
+    margin-left: 20%; 
+    display: flex;
+    flex-direction: column;
+    
+}
+.specialpart{
+    margin-top: 5%;
+    margin-right: 20%;
+    margin-left: 20%; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+input{
+    border-radius: 15px;
+    padding:3%;
+    margin-top: 1.5%;
+    border-color: crimson;
+
+}
+input::placeholder{
+    color: crimson;
+}
+button{
+    margin-top: 5%;
+    background-color: crimson;
+    color:rgb(255, 255, 255);
+    width:fit-content;
+    align-self: center;
+    padding: 3%;
+    border-radius: 25px;
+    font-size: medium;
+    font-family: Didot,serif;
+}
+label{
+    font-family: Didot,serif;
+    font-size: larger;
+    color: white;
+    margin-top: 5%;
+}
+a{
+    margin-top: 5%;
+}
+a:visited{
+   text-decoration:none;
+   color: white;
+}
+a:link{ 
+    text-decoration: none;
+    color: white;
+   
+}
+select{
+    border-radius: 15px;
+    padding:3%;
+    margin-top: 1.5%;
+    border-color: crimson;
+}
+#forgot{
+    margin-top:0%;
 }
